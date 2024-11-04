@@ -1,13 +1,15 @@
 <?php
-require_once __DIR__ . '/../solutions/php/01-sequences/01-easy/sum-two-numbers/Solution.php';
+require_once __DIR__ . '/../solutions/php/level01-sequences/level01-easy/sum-two-numbers/Solution.php';
+
+use Blind75\Solutions\PHP\Level01\Sequences\Level01\Easy\SumTwoNumbers\Solution;
 
 function run_test() {
 	// read inputs
-	$inputs = trim(file_get_contents(__DIR__ . '/../test-cases/01-sequences/01-easy/sum-two-numbers/inputs.txt'));
+	$inputs = trim(file_get_contents(__DIR__ . '/../test-cases/level01-sequences/level01-easy/sum-two-numbers/inputs.txt'));
 	$inputs_lines = explode("\n", $inputs);
 
 	// read outputs
-	$outputs = trim(file_get_contents(__DIR__ . '/../test-cases/01-sequences/01-easy/sum-two-numbers/outputs.txt'));
+	$outputs = trim(file_get_contents(__DIR__ . '/../test-cases/level01-sequences/level01-easy/sum-two-numbers/outputs.txt'));
 	$outputs_lines = explode("\n", $outputs);
 
 	// compare lengths and warn if different

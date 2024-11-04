@@ -1,6 +1,6 @@
 <?php
 
-namespace Blind75\Solutions\PHP\L1;
+namespace Blind75\Solutions\PHP\Level01\Sequences\Level01\Easy\SumTwoNumbers;
 
 class Solution {
 

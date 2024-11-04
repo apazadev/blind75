@@ -29,4 +29,5 @@ For category testing, run:
 
 For specific question testing, run:
 
-    php scripts/test-php-01-sequences-1-easy-sum-two-numbers.php
+    λ php scripts/test-php-01-sequences-1-easy-sum-two-numbers.php
+    Tests passed: 4/4
